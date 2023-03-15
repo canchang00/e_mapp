@@ -1,0 +1,11 @@
+main(){
+    parallel{
+        {
+            Pick("Ft")
+            Chop("Ft")       
+        },
+        {
+            Wash()
+        }
+    }
+}

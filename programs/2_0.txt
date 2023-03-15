@@ -1,0 +1,5 @@
+main(){
+    Merge("Ct","Co")
+    Merge("CoCt","p")
+    Serve("CoCt")
+}

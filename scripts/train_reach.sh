@@ -1,0 +1,1 @@
+python main.py --cfg_file cfgs/overcooked_reachability.yaml

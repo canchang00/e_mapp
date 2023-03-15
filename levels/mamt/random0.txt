@@ -1,0 +1,11 @@
+- T - - w - - -
+- f f - f f f -
+- f f - f f f q
+* f f p f f f -
+- f f v v f f *
+- f f f e f f -
+- f f f - f f -
+- - O / - - - -
+
+5 3
+2 6

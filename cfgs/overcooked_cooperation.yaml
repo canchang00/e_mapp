@@ -1,0 +1,40 @@
+# training cooperation policy, i.e., policy involving more than one agent.
+
+
+# env
+env_name: overcooked
+num_agents: 2
+num_objects: 21
+use_gpu: True
+action_dim: 1   # discrete action space with 24 options
+subtask_dim:  20
+num_envs: 8
+width: 8
+height: 8
+max_timesteps: 128
+level: mast-cooperation
+partial_obs: False
+random_map: True
+
+#training
+training_stage: cooperation
+lr: 3.0e-5
+n_steps: 4096
+batch_size: 256
+n_epochs: 3
+gamma: 0.99
+gae_lambda: 0.95
+clip_range: 0.05
+clip_range_vf: 5.0
+target_kl: 0.3
+use_value_norm: false
+ent_coef: 1.0e-3
+vf_coef: 1.0e-2
+max_grad_norm: 0.5
+epsilon_greedy: 0.1
+state_dict_path: null
+sl_coef: 1.0e-3
+
+
+# net
+state_dict_path: null

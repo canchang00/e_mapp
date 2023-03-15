@@ -1,0 +1,1 @@
+python main.py --test_only --cfg_file ./cfgs/overcooked_evaluate.yaml

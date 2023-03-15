@@ -1,0 +1,31 @@
+main(){
+    parallel{
+        {
+            if(CheckDemand("pCo"))
+            {
+                Pick("Fo")
+                Chop("Fo")
+                Merge("Co","p")
+                Serve("Co")
+            }
+        },
+        {
+            if(CheckDemand("pCt"))
+            {
+                Pick("Ft")
+                Chop("Ft")
+                Wash()
+                Merge("Ct","p")
+                Serve("Ct")
+            }
+        },
+        {
+            while (True){
+                if(IsOnFire())
+                {
+                    PutOffFire()
+                }
+            }
+        }
+    }
+}

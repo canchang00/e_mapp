@@ -1,0 +1,4 @@
+main(){
+    Wash()
+    Merge("p","Co")
+}

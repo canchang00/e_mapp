@@ -1,0 +1,22 @@
+main(){
+    parallel{
+        {
+            Pick("Fo")
+            Chop("Fo")
+            Merge("Co","p")
+            Serve("Co")
+        },
+        {
+            Pick("Ft")
+            Chop("Ft")
+            Pick("Fo")
+            Chop("Fo")
+        },
+        {
+            Wash()
+            Merge("Ct","Co")
+            Merge("p","CoCt")
+            Serve("CoCt")
+        }
+    }
+}
